@@ -8,8 +8,8 @@ function Top() {
             <section className='top'>
                 <h1 className='top__heading'> E-wallet </h1>
             </section>
-            <h2 className='top__activecard'>PRESS LOGO TO ACTIVATE CARD</h2>
-            <h6 className='top__activecard'>Active card</h6>
+            <h2 className='top__activecard'>PRESS CARDLOGO TO ACTIVATE CARD</h2>
+            <h6 className='top__activecard'><u>Active card</u></h6>
         </>
     )
 }

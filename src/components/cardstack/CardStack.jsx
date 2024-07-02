@@ -45,7 +45,7 @@ function CardStack() {
   return (
     <>
       <article className='card-stack'>
-        {cardsItems.length > 0 ? cardsItems : <section className='card-stack__noCards'><h1 className='card-stack__noCards-text'>No cards are added.</h1></section>}
+        {cardsItems.length > 0 ? cardsItems : <section className='card-stack__noCards'><h1 className='card-stack__noCards-text'>No cards added.</h1></section>}
       </article>
     </>
   )

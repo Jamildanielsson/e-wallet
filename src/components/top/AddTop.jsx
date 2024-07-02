@@ -13,7 +13,7 @@ function AddTop() {
     return (
         <>
             <section className='addtop'>
-                <div className='addtop__round' onClick={handleClick}><i className='fas fa-angle-double-left'></i></div>
+                <div className='addtop__round' onClick={handleClick}>Back</div>
                 <h1 className='addtop__heading'> Add a new bankcard </h1>
             </section>
             <h6 className='addtop__activecard'>New card</h6>
